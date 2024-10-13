@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-RUN apk install curl
+RUN apk install -y curl
 # set the working directory in the container to /app
 WORKDIR /app
 
